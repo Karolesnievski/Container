@@ -8,3 +8,19 @@ if guess in colors:
     print("zgadłeś!")
 else: 
     print("niestety :C, spórbuj jeszcze raz !")
+
+# 2 Krotki
+rhymes = {
+    "1": "niebem",
+    "2": "kwas kwas",
+    "3": "śnić",
+    "4": "odjazd",
+}
+
+n = input("Wpisz cyfrę: ")
+if n in rhymes:
+    rhyme = rhymes[n]
+    print(rhyme)
+else:
+    print("Nie znaleziono"
+    )
