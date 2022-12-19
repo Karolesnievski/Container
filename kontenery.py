@@ -24,3 +24,16 @@ if n in rhymes:
 else:
     print("Nie znaleziono"
     )
+# 3 container in container
+lists = []
+rap = ["Mata",
+"żabson"
+]
+rock = ["Bob Dylan",]
+
+djs = ["Tiesto",]
+lists.append(rap)
+lists.append(rock)
+lists.append(djs)
+
+print(lists)
